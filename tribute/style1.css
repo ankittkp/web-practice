@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/1266772.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+:root{
+    text-align:center;
+    font-size:30px;
+}
+.container{
+   background-color: whitesmoke;
+   background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:black;
+     line-height: 1.6;
+     width:60%;
+      font-size:20px;
+      margin: 0 auto;
+      border-radius:10px;
+      padding:30px;
+    }
+.thick-border {
+        border-color: black;
+        border-width: 10px;
+        border-style: solid;
+        border-radius:50%;
+         }
+header .name{
+       font-family:"Lobster";
+       text-align: center;
+      font-size:60px;
+
+}
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+#para{
+        font-size:40px; 
+        color:#538b01; 
+        font-weight:bold;
+         font-style:italic;
+}
+#img-caption{
+        color:blue;
+}

@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style2.css">
+        <title id="title">survey-form</title>
+        <p id="description"> <h2>FIT INDIA MOVEMENT</h2>
+        </p>
+    </head>
+    <body>
+        <form id="survey-form">
+        <div class="container">
+              <label id="name-laH1 bel">Name<span class="required">*</span>     </label><input type="text" id="name" placeholder="Anshika" required>
+              <label class="l2">Last name: </label><input type="text"><br>
+              <label id="email-label">Gmail<span class="required">*</span>     </label><input type="email" id="email" placeholder="anahikakapoor@gmail.com" required><br>
+              <label id="number-label">Number of Activities Conducted: </label><input type="number" min="1" max="5" placeholder="3"><br>
+              <label>Types of Activities Undertaken: </label><br>
+                <input type="checkbox" value="cycling"> <label>cycling</label> <br>
+                 <input type="checkbox" value="skipping"><label>skipping</label><br>
+                 <input type="checkbox" value="walking"><label>walking</label><br>
+                 <input type="checkbox" value="running"><label>running</label><br>
+                 <input type="checkbox" value="yoga"><label>yoga</label><br>
+              <label>Family Included or Not: </label>
+              <select id="dropdown">
+                  <option value="yes">Yes</option>
+                  <option value="No">No</option>
+              </select><br>
+              <label>Select Type of Games you Like: </label><br>
+              <input type="radio" name="game"><label for="indoor">Indoor</label><br>
+              <input type="radio" name="game"><label for="Outdoor">Outdoor</label><br>
+             <label>Feedback: </label><br><textarea placeholder="It's really a great idea to keep you and your family healthy..." rows="5" cols="50"></textarea><br><br>
+             <div class="center"> <button id="submit"><b>sumbit response</b></button></div>
+        </div>
+        </form>
+    </body>
+</html>

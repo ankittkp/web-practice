@@ -1,0 +1,47 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg');
+     background-repeat:no-repeat;
+     background-attachment: fixed;
+     background-size:cover;
+    }
+    :root{
+        text-align:center;
+        color:gainsboro;
+        font-size:30px;
+    }
+    .container{
+        background-image: url('https://images.unsplash.com/photo-1497178398528-7ff4a4bad7ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:black;
+        width:300px;
+        font-size:20px;
+        margin:0 auto;
+        border-radius:10px;
+    }
+    .right{
+        text-align:right;
+        margin:50px;
+    }
+     .left{
+          text-align:left;   
+          margin:50px; 
+      }
+    .thick-border {
+   border-color: black;
+   border-width: 10px;
+   border-style: solid;
+   border-radius:50%;
+    }
+     .smaller{
+        border-color: purple;
+        border-width: 10px;
+        border-style: solid;
+       border-radius:50%;
+     }
+    h1{
+        color:pink;
+        font-family:"Lobster";
+        text-align:center;
+        font-size:100px;
+    }
+

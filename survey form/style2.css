@@ -1,0 +1,37 @@
+body{
+    background-color: skyblue;
+}
+:root{
+    text-align:center;
+    font-size:30px;
+}
+.container{
+    background-color: whitesmoke;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    text-align:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    line-height: 2.6;
+    width:50%;
+    font-size:20px;
+    margin :auto;
+    border-radius:10px;
+    padding:30px;
+}
+.l2{
+    margin-left:10%;
+}
+button{
+    font-size: 30px;
+    color:whitesmoke;
+    background-color:blue;
+}
+button:hover{
+         color:skyblue;
+     }
+.center{
+    text-align:center; 
+}
+.required{
+    color:red;
+}

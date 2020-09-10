@@ -23,11 +23,10 @@ body{
 }
 button{
     font-size: 30px;
-    color:whitesmoke;
-    background-color:blue;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 button:hover{
-         color:skyblue;
+         color:green;
      }
 .center{
     text-align:center; 

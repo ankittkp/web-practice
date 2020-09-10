@@ -42,5 +42,6 @@ textarea{
     border-radius: 10px;    
 }
 textarea:hover{
+    background-color: rgba(45, 45, 45, 0.1);
     border-color:hotpink;
 }

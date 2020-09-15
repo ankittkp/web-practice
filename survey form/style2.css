@@ -1,16 +1,13 @@
-body{
-    background-color: skyblue;
-}
+
 :root{
     text-align:center;
     font-size:30px;
 }
 .container{
-    background-color: whitesmoke;
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    background:rgb(5, 1, 1);
     text-align:left;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:black;
+    color:white;
     line-height: 2.6;
     width:50%;
     font-size:20px;
@@ -18,17 +15,25 @@ body{
     border-radius:10px;
     padding:30px;
 }
-.l2{
-    margin-left:10%;
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
 }
 button{
     font-size: 30px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-     border-radius: 10px;
-     border: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
 button:hover{
-         color:green;
+         color:red;
+         background-color: white;
      }
 .center{
     text-align:center; 
@@ -42,6 +47,6 @@ textarea{
     border-radius: 10px;    
 }
 textarea:hover{
-    background-color: rgba(45, 45, 45, 0.1);
     border-color:hotpink;
+    background-color: gainsboro;
 }

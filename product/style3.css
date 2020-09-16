@@ -77,17 +77,17 @@ footer{
   font-size: 20px;
 }
 @media (max-width: 28.75em) {
-  html {
+  .des {
     font-size: 55%;
   }
 }
 @media (max-width: 61.25em) {
-  html {
+  .des {
     font-size: 58%;
   }
 }
 @media (max-width: 75em) {
-  html {
+  .des {
     font-size: 60%;
   }
 }

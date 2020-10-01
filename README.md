@@ -4,9 +4,9 @@ Link for the same :  <br />
  https://anahika.github.io/web-practice/
  
  <br />
- List of projects :
- - Farewell form
- - Feedback form
- - Product
- - Tribute 
- - Survey Form
+ ## List of projects : <br/>
+ - Farewell form <br/>
+ - Feedback form  <br/>
+ - Product  <br/>
+ - Tribute   <br/>
+ - Survey Form 
